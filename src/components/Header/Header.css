@@ -1,0 +1,40 @@
+/* Header.css */
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #004080; /* University-themed color */
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+    height: 100vh;
+  }
+  
+  .logo-image {
+    height: 280px; /* Adjust as needed */
+    width: auto;
+    margin-bottom: 15px;
+  }
+  
+  .faq-button-container {
+    margin-top: 10px;
+  }
+  
+  .faq-button {
+    background-color: #ffcc00; /* Highlight color */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #004080;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 200px;
+  }
+  
+  .faq-button:hover {
+    background-color: #e6b800;
+  }
+  
